@@ -20,7 +20,7 @@ paru -Syu --noconfirm
 
 # Install dependencies
 echo "Installing dependencies..."
-paru -S --needed base-devel git cmake ninja meson wayland wayland-protocols libx11 libxinerama libxfixes libxrandr cairo libinput xorg-xwayland vulkan-headers vulkan-icd-loader vulkan-validation-layers glew glm pango libpcre2 ffmpeg libdisplay-info jsoncpp libliftoff libdrm libseat swaync pipewire wireplumber pipewire-alsa pipewire-jack pipewire-pulse xdg-desktop-portal-hyprland polkit-kde-agent qt5-wayland qt6-wayland hyprpaper hyprpicker hypridle hyprlock rofi clipman wl-clipboard firefox dolphin dolphin-plugins neovim alacritty gparted vlc sddm flatpak btrfs-progs exfat-utils f2fs-tools jfsutils nilfs-utils ntfs-3g reiserfsprogs xfsprogs --noconfirm
+paru -S --needed base-devel git cmake ninja meson wayland wayland-protocols libx11 libxinerama libxfixes libxrandr cairo libinput xorg-xwayland vulkan-headers vulkan-icd-loader vulkan-validation-layers glew glm pango libpcre2 ffmpeg libdisplay-info jsoncpp libliftoff libdrm libseat swaync pipewire wireplumber pipewire-alsa pipewire-jack pipewire-pulse xdg-desktop-portal-hyprland hyprcursor hyprwayland-scanner xcb-util-errors polkit-kde-agent qt5-wayland qt6-wayland hyprpaper hyprpicker hypridle hyprlock rofi clipman wl-clipboard firefox dolphin dolphin-plugins neovim alacritty gparted vlc sddm flatpak btrfs-progs exfat-utils f2fs-tools jfsutils nilfs-utils ntfs-3g reiserfsprogs xfsprogs --noconfirm
 
 # Build and install Hyprland from source
 echo "Building and installing Hyprland from source..."
