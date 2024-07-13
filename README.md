@@ -2,7 +2,7 @@
 My script to install hyprland the lazy way for only Arch Linux
 
 Remeber to make the file executable, ```
-                                      chmod +x /install_hyprland/hyprland.sh
+                                      chmod +x ~/install_hyprland/hyprland.sh
                                       ```
 
 ```ruby
