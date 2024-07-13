@@ -1,7 +1,7 @@
 # Install-Hyprland
 My script to install hyprland the lazy way for only Arch Linux
 
-Remeber to make the file executable, ```
+Remeber to make the file executable, ```blue
                                       chmod +x /hyprland.sh
                                       ```
 
