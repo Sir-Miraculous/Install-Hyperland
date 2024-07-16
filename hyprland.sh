@@ -27,7 +27,7 @@ yay -S gdb ninja gcc cmake meson libxcb xcb-proto xcb-util xcb-util-keysyms \
 libxfixes libx11 libxcomposite xorg-xinput libxrender pixman wayland-protocols \
 cairo pango seatd libxkbcommon xcb-util-wm xorg-xwayland libinput libliftoff \
 libdisplay-info cpio tomlplusplus hyprlang hyprcursor hyprwayland-scanner \
-xcb-util-errors hyprutils hyprpaper hyprpicker hyprlock hypridle qt5-wayland \
+xcb-util-errors hyprutils hyprpaper hyprlock hypridle qt5-wayland \
 qt6-wayland xdg-desktop-portal-hyprland polkit-kde-agent sddm pipewire \
 pipewire-alsa pipewire-pulse pipewire-jack pipewire-zeroconf wireplumber \
 lib32-pipewire lib32-pipewire-jack waybar swaync syshud syspower sysmenu \
