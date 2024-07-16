@@ -41,6 +41,16 @@ sudo systemctl start seatd.service
 sudo systemctl enable sddm.service
 sudo systemctl start sddm.service
 
+# Enable and start pipewire services
+sudo systemctl enable pipewire.service
+sudo systemctl start pipewire.service
+sudo systemctl enable pipewire-pulse.service
+sudo systemctl start pipewire-pulse.service
+
+# Enable and start wireplumber service
+sudo systemctl enable wireplumber.service
+sudo systemctl start wireplumber.service
+
 # Compile and install Hyprland
 git clone --recursive https://github.com/hyprwm/Hyprland
 cd Hyprland
