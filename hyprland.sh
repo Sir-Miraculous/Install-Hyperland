@@ -27,11 +27,18 @@ yay -S gdb ninja gcc cmake meson libxcb xcb-proto xcb-util xcb-util-keysyms \
 libxfixes libx11 libxcomposite xorg-xinput libxrender pixman wayland-protocols \
 cairo pango seatd libxkbcommon xcb-util-wm xorg-xwayland libinput libliftoff \
 libdisplay-info cpio tomlplusplus hyprlang hyprcursor hyprwayland-scanner \
-xcb-util-errors hyprutils hyprpaper hyprpicker hyprlock hypridle  --noconfirm
+xcb-util-errors hyprutils hyprpaper hyprpicker hyprlock hypridle qt5-wayland \
+qt6-wayland xdg-desktop-portal-hyprland polkit-kde-agent sddm pipewire \
+pipewire-alsa pipewire-pulse pipewire-jack pipewire-zeroconf wireplumber \
+lib32-pipewire lib32-pipewire-jack --noconfirm
 
 # Enable and start seatd service
 sudo systemctl enable seatd.service
 sudo systemctl start seatd.service
+
+# Enable and start sddm service
+sudo systemctl enable sddm.service
+sudo systemctl start sddm.service
 
 # Compile and install Hyprland
 git clone --recursive https://github.com/hyprwm/Hyprland
