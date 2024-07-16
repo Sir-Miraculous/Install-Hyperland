@@ -39,7 +39,6 @@ sudo systemctl start seatd.service
 
 # Enable and start sddm service
 sudo systemctl enable sddm.service
-sudo systemctl start sddm.service
 
 # Enable and start pipewire services
 sudo systemctl enable pipewire.service
