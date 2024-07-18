@@ -30,8 +30,8 @@ libdisplay-info cpio tomlplusplus hyprlang hyprcursor hyprwayland-scanner \
 xcb-util-errors hyprutils hyprpaper hyprlock hypridle qt5-wayland \
 qt6-wayland xdg-desktop-portal-hyprland polkit-kde-agent sddm pipewire \
 pipewire-alsa pipewire-pulse pipewire-jack pipewire-zeroconf wireplumber \
-lib32-pipewire lib32-pipewire-jack waybar swaync syshud syspower sysmenu \
-hyprnome watershot --noconfirm
+lib32-pipewire lib32-pipewire-jack waybar swaync rofi-wayland udiskie \
+hyprnome  --noconfirm
 
 # Enable and start seatd service
 sudo systemctl enable seatd.service
